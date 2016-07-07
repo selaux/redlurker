@@ -1,6 +1,7 @@
 import React from 'react'
 import R from 'ramda';
 import {connect} from 'react-redux'
+import classNames from 'classnames';
 
 import fetchSubreddit from '../../actions/reddit/fetchSubreddit'
 import Subreddit from '../common/Subreddit'
